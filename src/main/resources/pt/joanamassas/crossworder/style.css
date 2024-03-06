@@ -1,0 +1,25 @@
+.startMenu{
+    -fx-background-color: rgb(31, 31, 31);
+}
+
+.startMenuButtons{
+    -fx-background-color: rgb(61, 61, 61);
+    -fx-text-fill: rgb(189, 189, 189);
+    -fx-font-size: 20px;
+    -fx-pref-width: 200px;
+}
+
+.startMenuButtons:hover{
+    -fx-background-color: rgb(86, 86, 86);
+}
+
+.megaTitle{
+    -fx-fill: white;
+    -fx-highlight-fill: white;
+    -fx-font-size: 30px;
+}
+
+.credits{
+    -fx-fill: #838383;
+    -fx-font-size: 12px;
+}

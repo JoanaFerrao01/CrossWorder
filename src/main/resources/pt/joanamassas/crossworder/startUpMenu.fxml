@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400" minWidth="600" prefHeight="400.0" prefWidth="600.0" styleClass="startMenu" stylesheets="@style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.joanamassas.crossworder.Controllers.FXMLControllers.startUpMenuController">
+   <center>
+      <VBox alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="15.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#startGame" styleClass="startMenuButtons" text="Start Game" />
+            <Button mnemonicParsing="false" onAction="#gitHub" styleClass="startMenuButtons" text="Source Code" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </VBox>
+   </center>
+   <bottom>
+      <HBox alignment="BOTTOM_RIGHT" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="credits" text="by Joana Massas" />
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
